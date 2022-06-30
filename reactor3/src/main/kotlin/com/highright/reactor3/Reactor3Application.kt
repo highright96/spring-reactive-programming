@@ -1,11 +1,11 @@
-package com.highright.springwebfluxtodowithkotlin
+package com.highright.reactor3
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SpringWebfluxTodoWithKotlinApplication
+class Reactor3Application
 
 fun main(args: Array<String>) {
-	runApplication<SpringWebfluxTodoWithKotlinApplication>(*args)
+	runApplication<Reactor3Application>(*args)
 }
